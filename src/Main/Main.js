@@ -6,12 +6,12 @@ import './Main.css';
 class Main extends Component {
     constructor(props) {
       super(props);
-      this.state= {
+      this.state = {
         count:0
       }
     }
 
-incrementCounter= () => {
+incrementCounter = () => {
 
 this.setState({
     count: this.state.count  == 25 ? 0 : this.state.count + 1
@@ -31,11 +31,10 @@ render(){
       <div onClick = {
         this.incrementCounter
       } className = {classes}>
-    <p> {this.state.count}</p>
+    <p> {this.state.count} </p>
         </div>
-
-        </div>
-);
-}
+      </div>
+    );
+  }
 }
 export default Main;
