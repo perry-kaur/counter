@@ -1,0 +1,27 @@
+.main {
+  width: 100vw;
+  height: 250px;
+  background: #EA738DFF;
+}
+
+.circle {
+  height: 250px;
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  display: flex;
+  margin: auto;
+}
+
+p {
+  font-size: 80px;
+}
+
+.odd {
+  background-color: #00539CFF;
+}
+
+.even {
+  background-color: #EEA47FFF;
+}
