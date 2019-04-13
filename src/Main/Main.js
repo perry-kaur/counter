@@ -18,6 +18,13 @@ this.setState({
   })
 }
 
+resetCounter = () => {
+
+this.setState({
+    count: 0
+  })
+}
+
 render(){
     var numberClass;
     if (this.state.count % 2 == 0) {
@@ -33,8 +40,11 @@ render(){
       } className = {classes}>
     <p> {this.state.count} </p>
         </div>
+        <button onClick =
+        {this.resetCounter}> Reset </button>
       </div>
     );
   }
+
 }
 export default Main;
